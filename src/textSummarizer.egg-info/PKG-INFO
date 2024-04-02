@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: textSummarizer
+Version: 0.0.0
+Summary: A small python app for NLP app
+Home-page: https://github.com/hisanamuhammed/Text_Summarizer
+Author: hisanamuhammed
+Author-email: hisanamuhammed01@gmail.com
+Project-URL: Bug Tracker, https://github.com/hisanamuhammed/Text_Summarizer/issues
+License-File: LICENSE
+
+# Text_Summarizer
