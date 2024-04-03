@@ -180,3 +180,148 @@ connection: close
 [2024-04-03 13:16:46,144]: INFO: common: Creating directory: artifacts/data_ingestion
 [2024-04-03 13:16:46,145]: INFO: data_ingestion: File artifacts/data_ingestion/data.zip already exists of size ~ 7718 KB
 [2024-04-03 13:16:46,563]: INFO: main: Data Ingestion Stage completed
+[2024-04-03 14:41:26,935]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 14:41:26,943]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 14:41:26,944]: INFO: common: Creating directory: artifacts
+[2024-04-03 14:41:26,945]: INFO: common: Creating directory: artifacts/data_validation
+[2024-04-03 14:58:25,761]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 14:58:25,763]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 14:58:25,764]: INFO: common: Creating directory: artifacts
+[2024-04-03 14:58:25,765]: INFO: common: Creating directory: artifacts/data_validation
+[2024-04-03 15:24:23,946]: INFO: main: Data Ingestion Stage started
+[2024-04-03 15:24:23,946]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 15:24:23,946]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 15:24:23,946]: INFO: common: Creating directory: artifacts
+[2024-04-03 15:24:23,946]: INFO: common: Creating directory: artifacts/data_ingestion
+[2024-04-03 15:24:23,946]: INFO: data_ingestion: File artifacts/data_ingestion/data.zip already exists of size ~ 7718 KB
+[2024-04-03 15:24:24,175]: INFO: main: Data Ingestion Stage completed
+[2024-04-03 15:24:24,175]: INFO: main: Data Validation Stage started
+[2024-04-03 15:24:24,177]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 15:24:24,178]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 15:24:24,178]: INFO: common: Creating directory: artifacts
+[2024-04-03 15:24:24,179]: INFO: common: Creating directory: artifacts/data_validation
+[2024-04-03 15:24:24,179]: ERROR: main: 'DataValidation' object has no attribute 'download_file'
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_validation.main()
+  File "D:\DS-Project\NLP\Text_Summarizer\src\textSummarizer\pipeline\stage_02_data_validation.py", line 13, in main
+    data_Validation.download_file()
+AttributeError: 'DataValidation' object has no attribute 'download_file'
+[2024-04-03 15:24:39,946]: INFO: main: Data Ingestion Stage started
+[2024-04-03 15:24:39,949]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 15:24:39,949]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 15:24:39,950]: INFO: common: Creating directory: artifacts
+[2024-04-03 15:24:39,950]: INFO: common: Creating directory: artifacts/data_ingestion
+[2024-04-03 15:24:39,950]: INFO: data_ingestion: File artifacts/data_ingestion/data.zip already exists of size ~ 7718 KB
+[2024-04-03 15:24:40,100]: INFO: main: Data Ingestion Stage completed
+[2024-04-03 15:24:40,100]: INFO: main: Data Validation Stage started
+[2024-04-03 15:24:40,100]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 15:24:40,100]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 15:24:40,100]: INFO: common: Creating directory: artifacts
+[2024-04-03 15:24:40,100]: INFO: common: Creating directory: artifacts/data_ingestion
+[2024-04-03 15:24:40,100]: ERROR: main: 'DataValidation' object has no attribute 'download_file'
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_validation.main()
+  File "D:\DS-Project\NLP\Text_Summarizer\src\textSummarizer\pipeline\stage_02_data_validation.py", line 13, in main
+    data_Validation.download_file()
+AttributeError: 'DataValidation' object has no attribute 'download_file'
+[2024-04-03 15:34:42,056]: INFO: main: Data Ingestion Stage started
+[2024-04-03 15:34:42,060]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 15:34:42,061]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 15:34:42,061]: INFO: common: Creating directory: artifacts
+[2024-04-03 15:34:42,061]: INFO: common: Creating directory: artifacts/data_ingestion
+[2024-04-03 15:34:42,061]: INFO: data_ingestion: File artifacts/data_ingestion/data.zip already exists of size ~ 7718 KB
+[2024-04-03 15:34:42,161]: INFO: main: Data Ingestion Stage completed
+[2024-04-03 15:34:42,161]: INFO: main: Data Validation Stage started
+[2024-04-03 15:34:42,176]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 15:34:42,176]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 15:34:42,176]: INFO: common: Creating directory: artifacts
+[2024-04-03 15:34:42,176]: INFO: common: Creating directory: artifacts/data_ingestion
+[2024-04-03 15:34:42,176]: ERROR: main: 'DataValidation' object has no attribute 'download_file'
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_validation.main()
+  File "D:\DS-Project\NLP\Text_Summarizer\src\textSummarizer\pipeline\stage_02_data_validation.py", line 14, in main
+    data_Validation.download_file()
+AttributeError: 'DataValidation' object has no attribute 'download_file'
+[2024-04-03 15:41:03,590]: INFO: main: Data Ingestion Stage started
+[2024-04-03 15:41:03,592]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 15:41:03,593]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 15:41:03,593]: INFO: common: Creating directory: artifacts
+[2024-04-03 15:41:03,593]: INFO: common: Creating directory: artifacts/data_ingestion
+[2024-04-03 15:41:03,594]: INFO: data_ingestion: File artifacts/data_ingestion/data.zip already exists of size ~ 7718 KB
+[2024-04-03 15:41:03,712]: INFO: main: Data Ingestion Stage completed
+[2024-04-03 15:41:03,712]: INFO: main: Data Validation Stage started
+[2024-04-03 15:41:03,715]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 15:41:03,715]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 15:41:03,716]: INFO: common: Creating directory: artifacts
+[2024-04-03 15:41:03,717]: INFO: common: Creating directory: artifacts/data_ingestion
+[2024-04-03 15:41:03,717]: ERROR: main: 'DataValidation' object has no attribute 'download_file'
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_validation.main()
+  File "D:\DS-Project\NLP\Text_Summarizer\src\textSummarizer\pipeline\stage_02_data_validation.py", line 14, in main
+    data_Validation.download_file()
+AttributeError: 'DataValidation' object has no attribute 'download_file'
+[2024-04-03 15:54:13,065]: INFO: main: Data Ingestion Stage started
+[2024-04-03 15:54:13,067]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 15:54:13,068]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 15:54:13,068]: INFO: common: Creating directory: artifacts
+[2024-04-03 15:54:13,068]: INFO: common: Creating directory: artifacts/data_ingestion
+[2024-04-03 15:54:13,069]: INFO: data_ingestion: File artifacts/data_ingestion/data.zip already exists of size ~ 7718 KB
+[2024-04-03 15:54:13,180]: INFO: main: Data Ingestion Stage completed
+[2024-04-03 15:54:13,180]: INFO: main: Data Validation Stage started
+[2024-04-03 15:54:13,180]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 15:54:13,180]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 15:54:13,180]: INFO: common: Creating directory: artifacts
+[2024-04-03 15:54:13,180]: INFO: common: Creating directory: artifacts/data_ingestion
+[2024-04-03 15:54:13,180]: INFO: data_validation: File artifacts/data_ingestion/data.zip already exists of size ~ 7718 KB
+[2024-04-03 15:54:13,295]: INFO: main: Data Validation Stage completed
+[2024-04-03 16:27:07,571]: INFO: main: Data Ingestion Stage started
+[2024-04-03 16:27:07,579]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 16:27:07,579]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 16:27:07,579]: INFO: common: Creating directory: artifacts
+[2024-04-03 16:27:07,584]: INFO: common: Creating directory: artifacts/data_ingestion
+[2024-04-03 16:27:07,584]: INFO: data_ingestion: File artifacts/data_ingestion/data.zip already exists of size ~ 7718 KB
+[2024-04-03 16:27:07,753]: INFO: main: Data Ingestion Stage completed
+[2024-04-03 16:27:07,753]: INFO: main: Data Validation Stage started
+[2024-04-03 16:27:07,753]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 16:27:07,753]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 16:27:07,753]: INFO: common: Creating directory: artifacts
+[2024-04-03 16:27:07,753]: INFO: common: Creating directory: artifacts/data_validation
+[2024-04-03 16:27:07,753]: ERROR: main: 'DataValidationConfig' object has no attribute 'local_data_file'
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    data_validation.main()
+  File "D:\DS-Project\NLP\Text_Summarizer\src\textSummarizer\pipeline\stage_02_data_validation.py", line 14, in main
+    data_Validation.download_file()
+  File "D:\DS-Project\NLP\Text_Summarizer\src\textSummarizer\components\data_validation.py", line 37, in download_file
+    if not os.path.exists(self.config.local_data_file):
+AttributeError: 'DataValidationConfig' object has no attribute 'local_data_file'
+[2024-04-03 16:34:26,960]: INFO: main: Data Ingestion Stage started
+[2024-04-03 16:34:26,960]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 16:34:26,960]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 16:34:26,968]: INFO: common: Creating directory: artifacts
+[2024-04-03 16:34:26,969]: INFO: common: Creating directory: artifacts/data_ingestion
+[2024-04-03 16:34:26,969]: INFO: data_ingestion: File artifacts/data_ingestion/data.zip already exists of size ~ 7718 KB
+[2024-04-03 16:34:27,144]: INFO: main: Data Ingestion Stage completed
+[2024-04-03 16:34:27,144]: INFO: main: Data Validation Stage started
+[2024-04-03 16:34:27,144]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 16:34:27,144]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 16:34:27,144]: INFO: common: Creating directory: artifacts
+[2024-04-03 16:34:27,144]: INFO: common: Creating directory: artifacts/data_validation
+[2024-04-03 16:34:27,156]: INFO: main: Data Validation Stage completed
+[2024-04-03 16:35:10,006]: INFO: main: Data Ingestion Stage started
+[2024-04-03 16:35:10,006]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 16:35:10,006]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 16:35:10,006]: INFO: common: Creating directory: artifacts
+[2024-04-03 16:35:10,006]: INFO: common: Creating directory: artifacts/data_ingestion
+[2024-04-03 16:35:10,019]: INFO: data_ingestion: File artifacts/data_ingestion/data.zip already exists of size ~ 7718 KB
+[2024-04-03 16:35:10,180]: INFO: main: Data Ingestion Stage completed
+[2024-04-03 16:35:10,180]: INFO: main: Data Validation Stage started
+[2024-04-03 16:35:10,180]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 16:35:10,196]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 16:35:10,196]: INFO: common: Creating directory: artifacts
+[2024-04-03 16:35:10,196]: INFO: common: Creating directory: artifacts/data_validation
+[2024-04-03 16:35:10,197]: INFO: main: Data Validation Stage completed
