@@ -325,3 +325,54 @@ AttributeError: 'DataValidationConfig' object has no attribute 'local_data_file'
 [2024-04-03 16:35:10,196]: INFO: common: Creating directory: artifacts
 [2024-04-03 16:35:10,196]: INFO: common: Creating directory: artifacts/data_validation
 [2024-04-03 16:35:10,197]: INFO: main: Data Validation Stage completed
+[2024-04-03 21:31:32,337]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 21:31:32,347]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 21:31:32,347]: INFO: common: Creating directory: artifacts
+[2024-04-03 21:31:32,352]: INFO: common: Creating directory: artifacts/data_transformation
+[2024-04-03 21:33:04,174]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 21:33:04,174]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 21:33:04,174]: INFO: common: Creating directory: artifacts
+[2024-04-03 21:33:04,174]: INFO: common: Creating directory: artifacts/data_transformation
+[2024-04-03 21:33:16,207]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 21:33:16,207]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 21:33:16,215]: INFO: common: Creating directory: artifacts
+[2024-04-03 21:33:16,215]: INFO: common: Creating directory: artifacts/data_transformation
+[2024-04-03 21:37:39,222]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 21:37:39,231]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 21:37:39,231]: INFO: common: Creating directory: artifacts
+[2024-04-03 21:37:39,231]: INFO: common: Creating directory: artifacts/data_transformation
+[2024-04-03 21:40:05,041]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 21:40:05,041]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 21:40:05,041]: INFO: common: Creating directory: artifacts
+[2024-04-03 21:40:05,041]: INFO: common: Creating directory: artifacts/data_transformation
+[2024-04-03 21:40:24,815]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 21:40:24,824]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 21:40:24,824]: INFO: common: Creating directory: artifacts
+[2024-04-03 21:40:24,824]: INFO: common: Creating directory: artifacts/data_transformation
+[2024-04-03 21:42:26,810]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 21:42:26,810]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 21:42:26,810]: INFO: common: Creating directory: artifacts
+[2024-04-03 21:42:26,810]: INFO: common: Creating directory: artifacts/data_transformation
+[2024-04-03 22:17:12,082]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 22:17:12,082]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 22:17:12,090]: INFO: common: Creating directory: artifacts
+[2024-04-03 22:17:12,091]: INFO: common: Creating directory: artifacts/data_transformation
+[2024-04-03 22:41:41,063]: INFO: main: Data Ingestion Stage started
+[2024-04-03 22:41:41,066]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 22:41:41,067]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 22:41:41,067]: INFO: common: Creating directory: artifacts
+[2024-04-03 22:41:41,068]: INFO: common: Creating directory: artifacts/data_ingestion
+[2024-04-03 22:41:41,068]: INFO: data_ingestion: File artifacts/data_ingestion/data.zip already exists of size ~ 7718 KB
+[2024-04-03 22:41:41,465]: INFO: main: Data Ingestion Stage completed
+[2024-04-03 22:41:41,465]: INFO: main: Data Validation Stage started
+[2024-04-03 22:41:41,465]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 22:41:41,465]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 22:41:41,465]: INFO: common: Creating directory: artifacts
+[2024-04-03 22:41:41,465]: INFO: common: Creating directory: artifacts/data_validation
+[2024-04-03 22:41:41,465]: INFO: main: Data Validation Stage completed
+[2024-04-03 22:41:41,465]: INFO: main: Data Transformation Stage started
+[2024-04-03 22:41:41,483]: INFO: common: Reading yaml file: config\config.yaml
+[2024-04-03 22:41:41,484]: INFO: common: Reading yaml file: params.yaml
+[2024-04-03 22:41:41,484]: INFO: common: Creating directory: artifacts
+[2024-04-03 22:41:41,485]: INFO: common: Creating directory: artifacts/data_transformation
+[2024-04-03 22:41:48,052]: INFO: main: Data Transformation Stage completed
