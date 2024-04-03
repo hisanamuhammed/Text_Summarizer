@@ -1,7 +1,7 @@
 import os
 import yaml
 from box.exceptions import BoxValueError
-from textSummarizer.logging import logger
+from src.textSummarizer.logging import logger
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
@@ -33,4 +33,18 @@ def create_directories(path_to_directories: list, verbose=True):
     for path in path_to_directories:
         os.makedirs(path, exist_ok=True)
         if verbose:
+            pass
             logger.info(f"Creating directory: {path}")
+
+@ensure_annotations
+def get_size(path: Path) -> str:
+    """get size in KB
+
+    Args:
+        path (Path): path of the file
+
+    Returns:
+        str: size in KB
+    """
+    size_in_kb = round(os.path.getsize(path)/1024)
+    return f"~ {size_in_kb} KB"
